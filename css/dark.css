@@ -1,0 +1,10 @@
+
+.dark {
+    --bg-color: #242424;
+    --light-bg-color: #333;
+    --main-color: #eee;
+    --next-color: rgb(205, 205, 205);
+    --light-color: #bababa;
+    --opacity-color: rgba(89, 89, 89, 0.6);
+    --opacity-bg-color: rgba(255, 255, 255, 0.6);
+}

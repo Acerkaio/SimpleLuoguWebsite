@@ -1,0 +1,8 @@
+a.home-button{
+    font-weight: 200;
+    color: var(--bg-color);
+    background-color: var(--main-color);
+}
+a.home-button:hover{
+    background-color: var(--next-color);
+}
