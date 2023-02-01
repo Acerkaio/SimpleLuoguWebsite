@@ -1,2 +1,1 @@
-# SimpleLuoguWebsite
-Simple Luogu Website
+# Nothing

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="Zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+    <title>Smart-LG</title>
+    <link rel="shortcut icon" href="../temp/img/logo-sl.png">
+</head>
+<body>
+    <div class="top">
+        <a href="../index.html">
+            <div class="lgroup">
+                <img src="../temp/img/logo-sl.png" alt="SL"> &nbsp; <span class="name" > Smart-Luogu </span> 
+            </div>
+        </a>
+        <div class="group">
+            <span class="name" > Appearance </span> <button id="toggle-button" ><i class="fa fa-sun-o"></i></button>
+        </div>
+        <div class="group">
+            <span class="name" > <a href="help.html">帮助</a> </span>  
+        </div>
+    </div>
+    
+    <div id="workspace-div">
+        <div id="circle-org"></div>
+        <div id="subject-div" class="glass glass-light" style="width: 420px;">
+            <img src="../temp/img/Smaple2.png" alt="">
+        </div>
+        <div id="circle-blue"></div>
+    </div>
+    <div id="main-tit">
+        <div id="Big-tit" style="opacity:0;margin-top: 100px;font-size:34px;"> <strong>SL</strong> Download</div>
+        <div id="nd-tit" style="opacity:0;margin-top: 30px;font-size:42px;"> <strong>这是 Smart-Luogu 下载页 </strong></div>
+        <div id="rd-tit" style="opacity:0;margin-top: 20px;font-size:22px;"> 一款外观清爽，简洁小清新样式</div>
+        <div style="margin-top: 40px;"><a href="" id="download" style="padding-top:10px;padding-bottom:10px;padding-left:10px;padding-right: 10px;text-decoration: none;font-weight: bold;background-color: #0060df;border-radius: 10px;color: #fff;opacity:0;margin-top: 40px;font-size:22px;">立即获取</a></div>
+        <div id="find-help" style="opacity:0;margin-top: 20px;font-size:22px;"> 如果您并不在大神的指引下准备使用，或您不知道怎么下载，<br> <a href="help.html" style="color:var(--main-color);">点此获取帮助</a></div>
+        
+    </div>
+    <script src="../js/toggle.js"></script>
+    <script>
+        function showtext1() {
+            var x = document.getElementById("Big-tit");
+            x.style.cssText = "color:var(--main-color);opacity:1;animation:show-text 1s;margin-top: 100px;font-size:34px;";
+        }
+        setTimeout(showtext1, 500);
+    </script> 
+    <script>
+        function showtext2() {
+            var x = document.getElementById("nd-tit");
+            x.style.cssText = "color:var(--main-color);opacity:1;animation:show-text 1s;margin-top: 30px;font-size:42px;";
+        }
+        setTimeout(showtext2, 750);
+    </script> 
+    <script>
+        function showtext3() {
+            var x = document.getElementById("rd-tit");
+            x.style.cssText = "color:var(--main-color);opacity:1;animation:show-text 1s;margin-top: 30px;font-size:22px;";
+        }
+        setTimeout(showtext3, 1000);
+    </script> 
+    <script>
+        function showtext4() {
+            var x = document.getElementById("download");
+            x.style.cssText = "padding-top:18px;padding-bottom:18px;padding-left:40px;padding-right: 40px;text-decoration: none;font-weight: bold; background-color: #0060df;border-radius: 10px;color: #fff;opacity:1;animation:show-text 1s;margin-top: 40px;font-size:20px;";
+        }
+        setTimeout(showtext4, 1250);
+    </script> 
+    <script>
+        function showtext5() {
+            var x = document.getElementById("find-help");
+            x.style.cssText = "color:var(--main-color);opacity:1;animation:show-text 1s;margin-top: 40px;font-size:10px;";
+        }
+        setTimeout(showtext5, 1500);
+    </script> 
+</body>
+</html>
